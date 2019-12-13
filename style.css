@@ -18,4 +18,25 @@ img {
 #js {
     color: var(--base);
 }
-
+.controls {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+input[type=range] {
+    width: 75px; 
+    height: 20px;
+    background: transparent;
+  }
+input[type=color] {
+    width: 75px;
+    height: 20px;
+    padding: 1px 1px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: transparent;
+    
+}
+  input[type=range]:focus {
+    outline: none;
+  }
